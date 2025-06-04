@@ -1,0 +1,19 @@
+// build.gradle for Groovy/JenkinsPipelineUnit test setup
+plugins {
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.jenkins-ci.org/releases/' }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.codehaus.groovy:groovy-all:3.0.9'
+    testImplementation 'com.lesfurets:jenkins-pipeline-unit:1.20'
+}
+
+test {
+    useJUnit()
+}

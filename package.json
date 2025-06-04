@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:groovy": "echo 'TODO: write tests for jenkins groovy scripts'",
+    "test:groovy": "gradle test --no-daemon",
     "jenkins:lint": "echo 'TODO: add linter for Jenkinsfile'",
     "jenkins:run": "echo 'TODO: add local Jenkins pipeline runner or instructions'"
   },
