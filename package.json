@@ -1,0 +1,23 @@
+{
+  "name": "jenkins_scripts_with_tests",
+  "version": "1.0.0",
+  "description": "poc for tests for jenkins groovy scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:groovy": "echo 'TODO: write tests for jenkins groovy scripts'",
+    "jenkins:lint": "echo 'TODO: add linter for Jenkinsfile'",
+    "jenkins:run": "echo 'TODO: add local Jenkins pipeline runner or instructions'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnim/jenkins_scripts_with_tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnim/jenkins_scripts_with_tests/issues"
+  },
+  "homepage": "https://github.com/dnim/jenkins_scripts_with_tests#readme"
+}
